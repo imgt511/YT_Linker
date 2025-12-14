@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YT_Linker",
+  "version": "15.0",
+  "description": "Advanced YouTube Link Formatting Tool (TV Edition)",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "host_permissions": ["*://www.youtube.com/*", "*://m.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
